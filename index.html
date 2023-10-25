@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- LINK FONTAWESOME -->
+    <script
+      src="https://kit.fontawesome.com/c46e2ab208.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>AdaPizza</title>
+  </head>
+
+  <body>
+    <!-- INICIO DO HEADER DO CARDAPIO -->
+
+    <header id="inicio">
+      <div class="inicio">
+        <span class="logo" href="#inicio"
+          ><img
+            class="logo__imagem"
+            src="./img/logo.svg"
+            alt="logo da AdaPizza, pizza vermelha
+        dividida em 4 fatias com um pedaço faltando."
+          />
+          <span class="logo__titulo" href="#inicio">AdaPizza</span></span
+        >
+
+        <div class="navegacao">
+          <nav>
+            <a href="#inicio" class="navegacao__link">Início</a>
+            <a href="#menu" class="navegacao__link">Menu</a>
+            <a href="#tabela" class="navegacao__link">Tabela</a>
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <a href="./formulario.html" class="button navegacao__button"
+              >Cadastrar</a
+            >
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- FIM DO HEADER DO CARDAPIO -->
+
+    <!-- INICIO DA HERO DO CARDAPIO -->
+
+    <hero class="hero">
+      <div class="hero__texto">
+        <h2 class="hero__titulo">Sexta da Pizza!</h2>
+        <p class="hero__subtitulo">Que tal uma pizza deliciosa?</p>
+        <a href="#" class="button button__hero">Peça já!</a>
+      </div>
+      <div>
+        <img
+          src="./img/pizza-degrade.png"
+          alt="fundo da pizza"
+          class="hero__image"
+        />
+      </div>
+    </hero>
+
+    <!-- FIM DA HERO DO CARDAPIO -->
+
+    <!-- INICIO DO MAIN DO CARDAPIO -->
+
+    <main id="menu">
+      <h2>Recomendações</h2>
+      <section class="recomendacoes">
+        <div class="recomendacoes__item recomendacoes__item">
+          <img
+            src="./img/pizza-da-esquerda.png"
+            alt="pizza da esquerda"
+            class="recomendacoes__img"
+          />
+          <h3 class="recomendacoes__titulo">Cheese Lovers</h3>
+          <p class="recomendacoes__texto">
+            Combinação do delicioso molho Alfredo e Dois Queijos - Romano e
+            Parmesão.
+          </p>
+          <button class="button button__recomendacoes">Adicionar</button>
+        </div>
+
+        <div class="recomendacoes__item recomendacoes__item">
+          <img
+            src="./img/pizza-do-meio.png"
+            alt="pizza do meio"
+            class="recomendacoes__img"
+          />
+          <h3 class="recomendacoes__titulo">Pepperoni</h3>
+          <p class="recomendacoes__texto">
+            Pizza com molho caseiro e pepperoni levemente apimentado.
+          </p>
+          <button class="button button__recomendacoes">Adicionar</button>
+        </div>
+
+        <div class="recomendacoes__item recomendacoes__item">
+          <img
+            src="./img/pizza-da-direita.png"
+            alt="pizza da direita"
+            class="recomendacoes__img"
+          />
+          <h3 class="recomendacoes__titulo">Marguerita</h3>
+          <p class="recomendacoes__texto">
+            Feita com tomate San Marzano, queijo mussarela e manjericão fresco
+            fresquinho.
+          </p>
+          <button class="button button__recomendacoes">Adicionar</button>
+        </div>
+      </section>
+    </main>
+
+    <!-- FIM DO MAIN DO CARDAPIO -->
+
+    <!-- INICIO TABELA -->
+
+    <div id="tabela" class="tabela">
+      <table>
+        <caption>
+          Nossa Tabela de Preços
+        </caption>
+        <thead>
+          <tr>
+            <th>Produto</th>
+            <th>Preço</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>PIZZA (6 fatias)</td>
+            <td>R$30,00</td>
+          </tr>
+          <tr>
+            <td>PIZZA (8 fatias)</td>
+            <td>R$55,00</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- FIM TABELA -->
+
+    <!-- INICIO DO FOOTER DO CARDAPIO -->
+
+    <footer class="rodape">
+      <p class="rodape__texto">
+        Desenvolvido com amor pelo Grupo 5 - Ada Tech & IFood
+      </p>
+    </footer>
+
+    <!-- FIM DO FOOTER DO CARDAPIO -->
+  </body>
+</html>

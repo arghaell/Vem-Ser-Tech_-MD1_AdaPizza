@@ -1,81 +1,138 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LINK FONTAWESOME -->
+    <script
+      src="https://kit.fontawesome.com/c46e2ab208.js"
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- LINK FONTAWESOME -->
-  <script src="https://kit.fontawesome.com/c46e2ab208.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
 
-  <link rel="stylesheet" href="formulario.css">
+    <link rel="stylesheet" href="feedback.css" />
 
-  <title>Formulário</title>
-</head>
+    <title>Formulário</title>
+  </head>
 
-<body>
+  <body>
+    <!-- INICIO DO HEADER DO CARDAPIO -->
 
-  <!-- INICIO DO HEADER DO CARDAPIO -->
+    <!-- <header id="inicio">
+      <div class="inicio">
+        <span>ADA PIZZA</span>
+        <nav>
+          <a href="./index.html">Início</a>
+          <a href="./index.html">Menu</a>
+          <a href="./index.html">Tabela</a>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+          <a href="./formulario.html">Cadastrar</a>
+        </nav>
+      </div>
+    </header> -->
 
-  <header id="inicio">
-    <span>ADA PIZZA</span>
-    <nav>
-      <a href="./index.html">Início</a>
-      <a href="./index.html">Menu</a>
-      <a href="./index.html">Tabela</a>
-      <i class="fa-solid fa-magnifying-glass"></i>
-      <i class="fa-solid fa-cart-shopping"></i>
-      <a href="./formulario.html">Cadastrar</a>
-    </nav>
-  </header>
+    <header id="inicio">
+      <div class="inicio">
+        <span class="logo" href="#inicio"
+          ><img
+            class="logo__imagem"
+            src="./img/logo.svg"
+            alt="logo da AdaPizza, pizza vermelha
+        dividida em 4 fatias com um pedaço faltando."
+          />
+          <span class="logo__titulo" href="#inicio">AdaPizza</span></span
+        >
 
-  <!-- FIM DO HEADER DO CARDAPIO -->
+        <div class="navegacao">
+          <nav>
+            <a href="./index.html" class="navegacao__link">Início</a>
+            <a href="./index.html" class="navegacao__link">Menu</a>
+            <a href="./index.html" class="navegacao__link">Tabela</a>
 
-  <!-- INICIO DO MAIN DO CARDAPIO -->
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <a href="./formulario.html" class="button navegacao__button"
+              ><span class="navegacao__button__texto">Cadastrar</span>
+            </a>
+          </nav>
+        </div>
+      </div>
+    </header>
 
-  <main>
+    <!-- FIM DO HEADER DO CARDAPIO -->
 
-    <div>
-      <h2>Feedback</h2>
-    </div>
+    <!-- INICIO DO MAIN DO CARDAPIO -->
 
-    <!-- INICIO DO FORMULÁRIO -->
+    <main>
+      <div>
+        <h2>Feedback</h2>
+      </div>
 
-    <form method="post" action="https://652d071ef9afa8ef4b26a631.mockapi.io/posts" target="_blank">
+      <!-- INICIO DO FORMULÁRIO -->
 
-      <label for="name">Nome:</label>
-      <input type="text" id="name" name="name" required placeholder="Digite seu nome:">
+      <form
+        method="post"
+        action="https://652d071ef9afa8ef4b26a631.mockapi.io/posts"
+        target="_blank"
+      >
+        <label for="name">Nome:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          placeholder="Digite seu nome:"
+        />
 
-      <label for="city">Cidade:</label>
-      <input type="text" id="city" name="city" required placeholder="Digite sua Cidade:">
+        <label for="city">Cidade:</label>
+        <input
+          type="text"
+          id="city"
+          name="city"
+          required
+          placeholder="Digite sua Cidade:"
+        />
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" placeholder="Digite seu Email:">
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Digite seu Email:"
+        />
 
-      <label for="age">Idade:</label>
-      <input type="number" id="age" name="age" required placeholder="Digite sua Idade:">
+        <label for="age">Idade:</label>
+        <input
+          type="number"
+          id="age"
+          name="age"
+          required
+          placeholder="Digite sua Idade:"
+        />
 
-      <label for="hobby">Feedback:</label>
-      <textarea id="hobby" name="hobby"></textarea>
+        <label for="feedback">Feedback:</label>
+        <textarea id="feedback" name="feedback"></textarea>
 
-      <label for="submit" id="submit"></label>
-      <input type="submit" value="Enviar" class="botao">
-    </form>
+        <label for="submit" id="submit"></label>
+        <input type="submit" value="Enviar" class="button" />
+      </form>
 
-    <!-- FIM DO FORMULÁRIO -->
+      <!-- FIM DO FORMULÁRIO -->
+    </main>
 
-  </main>
+    <!-- FIM DO MAIN DO CARDAPIO -->
 
-  <!-- FIM DO MAIN DO CARDAPIO -->
+    <!-- INICIO DO FOOTER DO CARDAPIO -->
 
-  <!-- INICIO DO FOOTER DO CARDAPIO -->
+    <footer class="rodape">
+      <p class="rodape__texto">
+        Desenvolvido com amor pelo Grupo 5 - Ada Tech & IFood
+      </p>
+    </footer>
 
-  <footer>
-    <p>Desenvolvido com amor pelo grupo 5 - Ada techo & IFood</p>
-  </footer>
-
-  <!-- INICIO DO FOOTER DO CARDAPIO -->
-
-</body>
-
+    <!-- INICIO DO FOOTER DO CARDAPIO -->
+  </body>
 </html>
